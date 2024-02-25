@@ -1,0 +1,37 @@
+.apps-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tabs-container {
+  display: flex;
+  list-style-type: none;
+}
+.bg-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  padding: 12px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-family: 'bree serif';
+  font-size: 40px;
+  color: black;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  min-width: 70%;
+}
+.search-box {
+  height: 30px;
+  padding: 10px;
+  min-width: 50%;
+  background-color: transparent;
+  border: 1px solid #000000;
+}
+.search-icon {
+  height: 24px;
+  width: 24px;
+}
